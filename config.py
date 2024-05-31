@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "9623f07eca023e4e3c561c966513a642")
 BOT_TOKEN = getenv("BOT_TOKEN", "7123283070:AAH9kkVtrBbky4zkCXpwhgEP6suzr-_yerg")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mongoguess:guessmongo@cluster0.zcwklzz.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002065943011")
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002065943011"))
 OWNER_ID = int(getenv("OWNER_ID", 7036733368))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
