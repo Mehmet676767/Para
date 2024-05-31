@@ -6,21 +6,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "26953933"))
-API_HASH = getenv("API_HASH", "4bc2a58e7308a9da35bae33f68691d74")
-BOT_TOKEN = getenv("BOT_TOKEN", "6803669543:AAFNzstLnDW4Seq7t3M-ReK1tBu9POuv9xo")
+API_ID = int(getenv("API_ID", "21194358"))
+API_HASH = getenv("API_HASH", "9623f07eca023e4e3c561c966513a642")
+BOT_TOKEN = getenv("BOT_TOKEN", "7123283070:AAH9kkVtrBbky4zkCXpwhgEP6suzr-_yerg")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mongoguess:guessmongo@cluster0.zcwklzz.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002119401642"))
-OWNER_ID = int(getenv("OWNER_ID", 6772793255))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002065943011")
+OWNER_ID = int(getenv("OWNER_ID", 7036733368))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Meyit47zade/Pi",
+    "https://github.com/WCGKING/BrandedXMention",
 )
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/S1F1RB1RKANAL")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/S1F1RB1RCHAT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/masaldestekkanal")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kurulummm")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
-STRING1 = getenv("STRING_SESSION", "BACgINcnEgRwqA4y5JhiCR01aO5PQuqMsoaSpc5b7eRufW7Catgs_F30Bu3dNunYvIqrH9MVeSXFbCiqHCJP-_LcvtgwVZIY7iT8-1zySzwYUOls5vPlCdkacXcxUBm1Yoj7CamE1eBcHHNAAWl2A0_wX4L_WA8iprUVTiqClKvR-WDHc8Pz1at8mmeDtKGHRtAf58eceRs5HVMIjkr3ekDNOnsPQ1bDWwL7pk9osq6T-Y6rOdTXzzpnrVZ0lZ6BkLg1k8hZwgq-FacEdfVz9PNE1KnJbXtTminIItNep0yW178XQ3YPS6jPWqwIK6GGKBOuyxipA_F-665Nqh1wM5CVAAAAAYPhwgQA")
+STRING1 = getenv("STRING_SESSION", "BAGi8fAAXASVAooSxGHqPO27TvGwVsWfGfxnCoNT1N6r6jA7T-Du2UPK4g5-ouYv0Wg8Vu8LN2itSo6m0z1Mb-HE-WuUYW3AwOf8CVpSnCwoPgm7g8TL_1q8KPpsqWlnPrhnDQaxmBr6HFdn9SqMfv_lCOrrVoibFUrQnItbFlpGlcKkjredZnfx9jQYCYxlWO730pkhyo0cMvxA4mB8VQv3rPSaZ9sDY1RdiuMOkPnCCbuncohnypW2aj_AU1DiZbQY8o_raA-grmhKFEDUidJtHjDdGqvISyxjDQhrahVX4cDlIbHI7-F90brRPfYpITyolQrQi8CkXJE0IQiBo3_B0nJ0AQAAAAGhFXjPAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -54,21 +54,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/18ca7e679473e35fff993.jpg"
+    "START_IMG_URL", "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+STATS_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+STREAM_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+YOUTUBE_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/S%C3%BCmeyye-yard%C4%B1m-05-20"
 
 
 def time_to_seconds(time):
